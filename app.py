@@ -66,4 +66,4 @@ def upload_file():
 
 if __name__ == '__main__':
     # Use this for local development. For production, use gunicorn or a similar WSGI server.
-    app.run(host='0.0.0.0', debug=False, port=5100)
+    app.run(host='0.0.0.0', debug=False, port=5000)
